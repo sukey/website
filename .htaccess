@@ -1,0 +1,57 @@
+#AuthName "Velociraptor Pass Please"
+#AuthType Basic
+#AuthUserFile /home/ioxublbsp7eope5k/.htpasswd
+#Require valid-user
+
+Options -Indexes
+
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.php
+
+RewriteEngine On
+
+RewriteRule ^tutorial/?$ tutorial.php
+#RewriteRule ^io/?$ io.php
+RewriteRule ^tutorialDeutsch/?$ tutorialDeutsch.php
+RewriteRule ^sukeyrasta/?$ media/SukeyRasta.mp3
+RewriteRule ^iancollins/?$ media/IanCollins.mp3
+RewriteRule ^webapp/?$ io
+RewriteRule ^a/?$ io
+
+
+RewriteRule ^LBC/?$ media/LBC.mp3
+
+RewriteRule ^tutorial/(.*?)$ $1
+RewriteRule ^tutorialDeutsch/(.*?)$ $1
+RewriteRule ^sukeyrasta/(.*?)$ $1
+RewriteRule ^iancollins/(.*?)$ $1
+RewriteRule ^LBC/(.*?)$ $1
+
+RewriteRule ^summary/?$ index.php?id=GDoc&doc=es
+
+RewriteRule ^pressrelease/?$ index.php?id=GDoc&doc=pr
+
+RewriteRule ^pressrelease2/?$ index.php?id=GDoc&doc=pr2
+
+RewriteRule ^getinvolved/?(.*)?$ index.php?id=GetInvolved&p=$1
+
+RewriteRule ^what/?$ index.php?id=What
+
+RewriteRule ^metminutes/?$ index.php?id=metminutes
+
+RewriteRule ^chat/?$ index.php?id=Chat
+
+RewriteRule ^donate/?$ index.php?id=donate
+
+RewriteRule ^security/?$ index.php?id=Security
+
+RewriteRule ^contact/?$ index.php?id=Contact
+
+RewriteRule ^articles/?$ index.php?id=Articles
+
+RewriteRule ^howto/?$ index.php?id=Howto
+
+RewriteRule ^press/?$ index.php?id=Press
+
+RewriteRule ^idiotwarning/?$ index.php?id=idiotwarning
