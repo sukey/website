@@ -1,0 +1,415 @@
+html{
+	font-family: 'Helvetica', 'Sans';
+	font-size: 10pt;
+}
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+	min-width:600px;    	/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
+}
+a {
+	color:#369;
+}
+a:hover {
+	color:#fff;
+	background:#369;
+	text-decoration:none;
+}
+
+.infobox {
+	width: 270px;
+	float: left;
+	margin-left: 31px;
+}
+
+p {
+	margin:.4em 0 .8em 0;
+	padding:0;
+}
+
+.largetext {
+	font-size: 3em;
+	text-align: center;
+}
+
+img {
+	margin:10px 0 5px;
+	border: 0px;
+}
+#ads {
+	width:100%;
+	padding:20px 0;
+}
+#ads #mjt {
+	float:left;
+	margin-bottom:20px;
+}
+#ads .adhere {
+	margin:0 10px 10px 0;
+}
+#ads img {
+	display:block;
+	margin:0;
+}
+
+.supsuke
+{
+	padding: 0px 0 0 31px;
+	position: relative;
+	top: -10px;
+	margin: -100px, -40px, -40px, -40px;
+	float:left;
+	font-size:30pt;
+	color:#1985B5;
+}
+
+/* download link */
+.iphone {
+	clear:both;
+	float:left;
+	padding-top:10px;
+}
+.iphone a {
+	padding:.3em .5em !important;
+	margin-right:10px;
+	background:#3078D0;
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;
+	font-size:1.5em;
+	-moz-border-radius:.3em;
+	-webkit-border-radius:.3em;
+	border-radius:.3em;
+	line-height:2.5em;
+	-moz-box-shadow: 1px  1px 2px #888;
+	-webkit-box-shadow: 1px 1px 2px #888;
+	box-shadow: 1px 1px 2px #888;
+}
+.iphone a:hover {
+	background:#5f534f;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.android {
+	clear:both;
+	float:left;
+	padding-top:10px;
+}
+.android a {
+	padding:.3em .5em !important;
+	margin-right:10px;
+	background:#A4C639;
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;
+	font-size:1.5em;
+	-moz-border-radius:.3em;
+	-webkit-border-radius:.3em;
+	border-radius:.3em;
+	line-height:2.5em;
+	-moz-box-shadow: 1px  1px 2px #888;
+	-webkit-box-shadow: 1px 1px 2px #888;
+	box-shadow: 1px 1px 2px #888;
+}
+.android a:hover {
+	background:#5f534f;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.video {
+	float: left;
+	margin: 0px 33px 0 0;
+}
+
+.text {
+	float: left;
+}
+
+.clear {
+	margin: 33px 0 0 0;
+	float: left;
+	clear: both;
+}
+
+#container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/* Header styles */
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+	padding: 190px 0 0 0;
+	background-image: url(/images/headertop.png);
+	background-repeat: no-repeat;
+}
+
+#navbar{
+	background-image: url(/images/headerbottom.png);
+	background-repeat: no-repeat;
+	background-position: 521px 0;
+	background-color: #1985B5;
+	height:36px;
+	width:1000px;
+}
+
+#navbar ul{
+	list-style:none;
+	display:inline;
+}
+
+#navbar ul li {
+	display:inline;
+	list-style:none;
+	margin:0;
+}		
+#navbar ul li a {
+	display:block;
+	float:left;
+	padding:12px 10px 9px 10px;
+	text-align:center;
+	color:#FFFFFF;
+	text-decoration:none;
+	position:relative;
+	border-right: 1px solid #FFFFFF;
+	line-height:1.3em;
+}
+
+#homeimg {
+	width: 19px;
+	height: 19px;
+	margin-top:-4px;
+	background-image: url('/images/home.png');
+	background-position: top left;
+}
+
+#homeimg span {
+	margin-left: -1000px;
+}
+
+#navbar ul li a:hover {
+	background:#000000;
+}
+
+#support{
+	clear:both;
+	height:37px;
+	width: 1000px;
+	background-repeat:repeat-x;
+	background-image: url(/gaffentest/images/subheadgradient.png);
+	margin:-20px 0 0 0 ;
+}
+
+#support ul{
+	float:right;
+	padding: 0 16px 0 0;
+	margin-top: -10px;
+}
+
+#support ul li {
+	display:inline;
+	list-style:none;
+	margin:0;
+}		
+#support ul li a {
+	display:block;
+	float:left;
+	padding:0px 0px 0px 0px;
+	text-align:center;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#support ul li a:hover{
+	background-color: transparent;
+}
+
+#content{
+	margin: 0px 0px 0 12px;
+	padding: 0 13px 0 0;
+}
+
+#content h3,#content h2, #content h1{
+	color: #000000;
+	/*text-indent: -40px;*/
+}
+
+#links ul li{
+	list-style:none;
+	text-decoration:underline;
+}
+
+.colmask {
+	/* position:relative;	*/ /* This fixes the IE7 overflow hidden bug */
+	/* clear:both; */
+	/* float:left; */
+	/* width:100%;	*/		/* width of whole page */
+	/* overflow:hidden; */		/* This chops off any overhanging divs */
+	/* min-height: 50px; */
+	/* margin-top: -17px; */
+	/* padding-left: 0px; */
+	
+}
+
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;
+	position:relative;
+}
+
+.cont {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+}
+
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+}
+
+.rightmenu {
+	background:#eee;		/* right column background colour */
+}
+.rightmenu .colleft {
+	right:25%;			/* right column width */
+	background:#fff;		/* left column background colour */
+}
+.rightmenu .col1 {
+	/*width:71%;*/
+	width: 1000px;			/* left column content width (left column width minus left and right padding) */
+	left:24%;			/* (right column width) plus (left column left padding) */
+}
+.rightmenu .col2 {
+	width:21%;			/* right column content width (right column width minus left and right padding) */
+	left:31%;			/* (right column width) plus (left column left and right padding) plus (right 						column left padding) */
+}
+
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	background-color: #000000;
+	background-repeat:repeat-x;
+	background-image: url(/images/footergrad.png);
+}
+#footer p {
+	padding:10px;
+	/*text-style: ;*/
+	margin:0;
+}
+
+#footer a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	background-color: transparent;
+	text-decoration:underline;
+}
+
+#footer ul {
+	list-style:none;
+}
+
+#footer h1,h2,h3 {
+	padding-left:40px; /* fix the misalignment of h tags in footer */
+	color: #FFFFFF;
+}
+
+#f1 {
+	width: 25%;
+	float: left;
+}
+
+#f1a {
+	width: 50%;
+	float: left;
+}
+
+img.email {
+	vertical-align: bottom;
+	display:inline;
+}
+#f1b{
+	width: 50%;
+	float: left;
+}
+
+#f2{
+	width: 50%;
+	float: left;
+}
+/*
+#f3{
+	width: 75%;
+	float: left;
+}*/
+
+#f4{
+	width: 25%;
+	float: left;
+}
+.sukey_image
+{
+	margin: 280px 0 0 0;
+}
+#splash {
+	height: 620px;
+	width: 1000px;
+	background: url(../io/images/sukeysplash.gif) center no-repeat;	
+	margin: 0 auto;	
+}
+
+#hideme {
+	display: block;
+}
+
+#buttons{
+	height: 96px;
+	display: block;
+	width: 1000px;
+	/*background: #00ff00;*/
+	margin: 20px 0 0 0;
+}
+
+#app {
+	width: 86px;
+	height: 86px;
+	background: url(../io/images/logo.png);
+	float: left;
+	margin: 0 0 0 300px;
+}
+
+#twitter {
+	width: 86px;
+	height: 86px;	
+	background: url(../io/images/twit.gif);
+	float: left;
+	margin: 0 0 0 50px;
+}
+
+
+#fb {
+	width: 86px;
+	height: 86px;	
+	background: url(../io/images/fabook.gif);
+	float: left;
+	margin: 0 0 0 50px;
+}
+
