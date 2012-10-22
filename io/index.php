@@ -1,7 +1,7 @@
 <?php
 
-include("detectMobile.php");
-if(isMobile()){header("Location: http://sukey.io/webapp/");}
+//include("detectMobile.php");
+//if(isMobile()){header("Location: http://sukey.io/webapp/");}
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
