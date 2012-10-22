@@ -23,6 +23,58 @@ if(!isset($_GET['id'])){$id = 'Homepage';}
 		<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 		<link rel="stylesheet" media="screen" href="css/screen.css" type="text/css"/>
   <link rel="alternate" type="application/rss+xml" title="Sukey - Keeping demonstrators safe, mobile & informed" href="https://sukeyupdates.blogspot.com/feeds/posts/default/" />
+<script type="text/javascript" src="http://www.google.com/jsapi">
+</script>
+
+<script type="text/javascript" src="js/gfeedfetcher.js">
+
+/***********************************************
+* gAjax RSS Feeds Displayer- (c) Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+<style type="text/css">
+
+.labelfield{ /*CSS for label field in general*/
+color:brown;
+font-size: 90%;
+}
+
+.datefield{ /*CSS for date field in general*/
+color:gray;
+font-size: 90%;
+}
+
+#example1 li{ /*CSS specific to demo 1*/
+margin-bottom: 4px;
+}
+
+#example2 div{ /*CSS specific to demo 2*/
+margin-bottom: 5px;
+}
+
+#example2 div a{ /*CSS specific to demo 2*/
+text-decoration: none;
+}
+
+#example3 a{ /*CSS specific to demo 3*/
+color: #D80101;
+text-decoration: none;
+font-weight: bold;
+}
+
+#example3 p{ /*CSS specific to demo 3*/
+margin-bottom: 2px;
+}
+
+code{ /*CSS for insructions*/
+color: red;
+}
+
+</style>
 	</head>
 
 	<body> 

@@ -2,3 +2,6 @@ io/webapp/*
 css/screen.css~
 .gitignore~
 index.php~
+php/navigation.php~
+php/News.php~
+.htaccess~

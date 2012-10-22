@@ -98,6 +98,10 @@ img {
 	background:#000000;
 }
 
+#news div{
+float: left;
+}
+
 #support{
 	clear:both;
 	height:37px;
@@ -292,4 +296,31 @@ img {
 	float: left;
 	margin: 0 0 0 50px;
 }
+/*RSS FEED CSS CODE*/
+.labelfield{ /*CSS for label field in general*/
+color:brown;
+font-size: 90%;
+}
 
+.titlefield{
+font-size: 200%;
+}
+
+.datefield{ /*CSS for date field in general*/
+color:gray;
+font-size: 90%;
+}
+
+#news a{ /*CSS specific to demo 3*/
+color: #046838;
+text-decoration: none;
+font-weight: bold;
+}
+
+#news3 p{ /*CSS specific to demo 3*/
+margin-bottom: 2px;
+}
+
+code{ /*CSS for insructions*/
+color: red;
+}

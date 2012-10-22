@@ -28,23 +28,14 @@ RewriteRule ^sukeyrasta/(.*?)$ $1
 RewriteRule ^iancollins/(.*?)$ $1
 RewriteRule ^LBC/(.*?)$ $1
 
-RewriteRule ^summary/?$ index.php?id=GDoc&doc=es
-
-RewriteRule ^pressrelease/?$ index.php?id=GDoc&doc=pr
-
-RewriteRule ^pressrelease2/?$ index.php?id=GDoc&doc=pr2
 
 RewriteRule ^getinvolved/?(.*)?$ index.php?id=GetInvolved&p=$1
 
 RewriteRule ^what/?$ index.php?id=What
 
-RewriteRule ^metminutes/?$ index.php?id=metminutes
-
 RewriteRule ^chat/?$ index.php?id=Chat
 
 RewriteRule ^donate/?$ index.php?id=donate
-
-RewriteRule ^security/?$ index.php?id=Security
 
 RewriteRule ^contact/?$ index.php?id=Contact
 
@@ -54,4 +45,4 @@ RewriteRule ^howto/?$ index.php?id=Howto
 
 RewriteRule ^press/?$ index.php?id=Press
 
-RewriteRule ^idiotwarning/?$ index.php?id=idiotwarning
+RewriteRule ^news/?$ index.php?id=News
