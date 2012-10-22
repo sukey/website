@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	padding: 0;
+	margin: 0;
+	background: #858585;
+}
+
+.sukey_image
+{
+	margin: 280px 0 0 0;
+}
+
+#splash {
+	height: 620px;
+	background: url(../images/sukeysplash.gif) center no-repeat;	
+	margin: 0 auto;	
+}
+
+#hideme {
+	display: block;
+}
+
+#buttons{
+	height: 96px;
+	display: block;
+	width: 1000px;
+	/*background: #00ff00;*/
+	margin: 20px 0 0 0;
+}
+
+#app {
+	width: 86px;
+	height: 86px;
+	background: url(../images/logo.png);
+	float: left;
+	margin: 0 0 0 300px;
+}
+
+#twitter {
+	width: 86px;
+	height: 86px;	
+	background: url(../images/twit.gif);
+	float: left;
+	margin: 0 0 0 50px;
+}
+
+
+#fb {
+	width: 86px;
+	height: 86px;	
+	background: url(../images/fabook.gif);
+	float: left;
+	margin: 0 0 0 50px;
+}
