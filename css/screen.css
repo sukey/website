@@ -47,12 +47,12 @@ img {
 	float:left;
 	width:100%;
 	padding: 190px 0 0 0;
-	background-image: url(/images/headertop.png);
+	background-image: url(../images/headertop.png);
 	background-repeat: no-repeat;
 }
 
 #navbar{
-	background-image: url(/images/headerbottom.png);
+	background-image: url(../images/headerbottom.png);
 	background-repeat: no-repeat;
 	background-position: 521px 0;
 	background-color: #1985B5;
@@ -86,7 +86,7 @@ img {
 	width: 19px;
 	height: 19px;
 	margin-top:-4px;
-	background-image: url('/images/home.png');
+	background-image: url('../images/home.png');
 	background-position: top left;
 }
 
@@ -103,7 +103,7 @@ img {
 	height:37px;
 	width: 1000px;
 	background-repeat:repeat-x;
-	background-image: url(/gaffentest/images/subheadgradient.png);
+	background-image: url(../images/subheadgradient.png);
 	margin:-20px 0 0 0 ;
 }
 
@@ -193,7 +193,7 @@ img {
 	width:100%;
 	background-color: #000000;
 	background-repeat:repeat-x;
-	background-image: url(/images/footergrad.png);
+	background-image: url(../images/footergrad.png);
 }
 
 #footer a {

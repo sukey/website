@@ -20,18 +20,12 @@ if(!isset($_GET['id'])){$id = 'Homepage';}
 		<meta name="description" content="Sukey is a mapping and reporting tool designed to keep demonstrators safe, mobile & informed." /> 
 		<meta name="keywords" content="Sukey, protest map, live protest, kettling, GIS, demo2011, demonstrations, #sukey, sukeyData" /> 
 		<meta name="robots" content="index, follow" /> 
-		<link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
-		<link rel="stylesheet" media="screen" href="/css/screen.css" type="text/css"/>
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+		<link rel="stylesheet" media="screen" href="css/screen.css" type="text/css"/>
   <link rel="alternate" type="application/rss+xml" title="Sukey - Keeping demonstrators safe, mobile & informed" href="https://sukeyupdates.blogspot.com/feeds/posts/default/" />
-	
-		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:regular,bold' rel='stylesheet' type='text/css' />
-		<script type="text/javascript" src="/scripts/ga.js"></script>
-		<!--[if lte IE 6]>
-			<script type="text/javascript" src="supersleight-min.js"></script>
-		<![endif]-->
 	</head>
 
-	<body onload="supersleight.init()"> 
+	<body> 
 
 		<div id="container">
 
@@ -41,9 +35,9 @@ if(!isset($_GET['id'])){$id = 'Homepage';}
 
 			<div id="support">
 				<ul>
-					<li><a href="https://youtube.com/user/sukeyorg/" target="_blank"><img src="/images/sukeyoutube.png" alt="Youtube"/></a></li>
-					<li><a href="https://twitter.com/sukeyio" target="_blank"><img src="/images/sukeytwitter.png" alt="Twitter"/></a></li>
-					<li><a href="https://sukeyio.blogspot.com/feeds/posts/default/" target="_blank"><img src="/images/sukeyrss.png" alt="RSS"/></a></li>
+					<li><a href="https://youtube.com/user/sukeyorg/" target="_blank"><img src="images/sukeyoutube.png" alt="Youtube"/></a></li>
+					<li><a href="https://twitter.com/sukeyio" target="_blank"><img src="images/sukeytwitter.png" alt="Twitter"/></a></li>
+					<li><a href="https://sukeyio.blogspot.com/feeds/posts/default/" target="_blank"><img src="images/sukeyrss.png" alt="RSS"/></a></li>
 				</ul>
 			</div> 
 			<div class="colmask rightmenu"> 
