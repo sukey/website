@@ -33,9 +33,17 @@ body {
 #app {
 	width: 86px;
 	height: 86px;
-	background: url(../images/logo.png);
+	background: url(../images/logo.png); 
 	float: left;
-	margin: 0 0 0 300px;
+	margin: 0 0 0 250px;
+}
+
+#git {
+	width: 86px;
+	height: 86px;
+	background: url(../images/github.png);
+	float: left;
+	margin: 0 0 0 40px;
 }
 
 #twitter {

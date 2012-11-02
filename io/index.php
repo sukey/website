@@ -1,3 +1,4 @@
+
 <?php
 
 //include("detectMobile.php");
@@ -33,10 +34,10 @@ document.getElementById('hideme').style.display = "none";
 				<div id="app">
 				</div>
 			</a>
-<!--			<a href="#" onmousedown="change()">
-				<div id="app">
+			<a href="https://github.com/sukey/webapp">
+				<div id="git">
 				</div>
-			</a>   -->
+			</a>   
 			<a href="https://www.facebook.com/Sukeyio" target="_blank">
 				<div id="fb">
 				</div>

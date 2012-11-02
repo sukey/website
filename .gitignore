@@ -5,3 +5,5 @@ index.php~
 php/navigation.php~
 php/News.php~
 .htaccess~
+sukey/data/announcements/archive*
+sukey/data/announcements/*
